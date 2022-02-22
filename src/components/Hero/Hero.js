@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         My name is Berke. I am a candidate of full stack developer and computer engineering student. I am using this website to share my curriculum vitae, projects and personal blog.
       </SectionText>
-      <Button onClick={props.handleClick}>Learn More</Button>
+      <Button onClick={props.handleClick}><a href='https://www.linkedin.com/in/eberkeaydin/'>Learn More</a></Button>
     </LeftSection>
   </Section>
 );
