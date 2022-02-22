@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
@@ -15,5 +15,13 @@ export const LeftSection = styled.div`
     flex-direction: column;
 
     margin: 0 auto;
+  }
+`;
+
+export const Link = styled.a`
+  color: #fff;
+
+  &:hover {
+    color: #fff;
   }
 `;
