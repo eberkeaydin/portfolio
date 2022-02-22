@@ -19,6 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
+          <p>Site is developed by Emin Berke AydinⒸ 2022</p>
           <Slogan>Veritas Vincit</Slogan>
         </CompanyContainer>
         <SocialContainer>
