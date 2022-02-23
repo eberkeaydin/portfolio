@@ -59,6 +59,12 @@ justify-content: space-between;
   flex-direction: column;
 }
 `
+export const Copyright = styled.p`
+	display: flex;
+	justify-content: space-between;
+	font-size: small;
+
+`
 
 export const CompanyContainer = styled.div`
   display: flex;
