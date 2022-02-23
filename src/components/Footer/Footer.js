@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, Copyright, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -19,7 +19,6 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <p>Site is developed by Emin Berke AydinⒸ 2022</p>
           <Slogan>Veritas Vincit</Slogan>
         </CompanyContainer>
         <SocialContainer>
@@ -32,6 +31,7 @@ const Footer = () => {
         <SocialIcons href='https://www.instagram.com/e.berkeaydin/'>
         <AiFillInstagram size="3rem" />
       </SocialIcons>
+      <Copyright>Site is developed by Emin Berke AydinⒸ 2022</Copyright>
       </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
