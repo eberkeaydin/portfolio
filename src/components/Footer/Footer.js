@@ -31,9 +31,9 @@ const Footer = () => {
         <SocialIcons href='https://www.instagram.com/e.berkeaydin/'>
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-      <Copyright>Site is developed by Emin Berke AydinⒸ 2022</Copyright>
       </SocialContainer>
       </SocialIconsContainer>
+      <Copyright>Site is developed by Emin Berke AydinⒸ 2022</Copyright>
     </FooterWrapper>
   );
 };
