@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-### Here is my portfolio that is developed with React and Next.js. 
+### Here is my portfolio that is developed with React and Next.js. [Click here to visit live site](https://eberkeaydin.netlify.app/)
 ### I deployed my project in [Netlify](https://www.netlify.com) for FREE!
 
 
