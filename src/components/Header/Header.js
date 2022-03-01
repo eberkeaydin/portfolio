@@ -24,6 +24,11 @@ const Header = () =>  (
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
+      </li>
+      <li>
+        <Link href="/pages/blog.js">
+          <NavLink>Blog</NavLink>
+        </Link>
       </li> 
       <li>
         <Link href="#about">
