@@ -13,9 +13,6 @@ import BlogPosts from '../components/Blog/BlogPosts';
 
 const Home = () => {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" >
           <Layout>
             <Section grid>
               <Hero />
@@ -26,16 +23,7 @@ const Home = () => {
             <Timeline />
             <Acomplishments />
           </Layout>
-        </Route>
-
-        <Route path="/blog/" >
-          <Layout>
-            <BlogPosts />
-          </Layout>
-        </Route>
         
-      </Switch>
-    </Router>
   );
 };
 
