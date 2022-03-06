@@ -7,21 +7,38 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import BlogPosts from '../components/Blog/BlogPosts';
+
 
 const Home = () => {
   return (
-    
-    <Layout>
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-      <Acomplishments />
-    </Layout>
+    <Router>
+      <Switch>
+        <Route path="/" >
+          <Layout>
+            <Section grid>
+              <Hero />
+              <BgAnimation />
+            </Section>
+            <Projects />
+            <Technologies />
+            <Timeline />
+            <Acomplishments />
+          </Layout>
+        </Route>
+
+        <Route path="/blog/" >
+          <Layout>
+            <BlogPosts />
+          </Layout>
+        </Route>
+        
+      </Switch>
+    </Router>
   );
 };
+
+
 
 export default Home;
