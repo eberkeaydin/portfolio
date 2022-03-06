@@ -26,7 +26,7 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="/pages/blog.js">
+        <Link href="#blog">
           <NavLink>Blog</NavLink>
         </Link>
       </li> 
