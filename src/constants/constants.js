@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Ege Savtek Official Website',
-    description: "Using Wordpress and additionally CSS implementations. Website is developed for 'Ege University Defence Technologies Community' which community is creating ROV, UGV and UAV vehicles to join tech competitons.",
+    description: "In this project, utilising Wordpress and CSS, my team has created a biweekly-updated community site publishing blog posts on diverse topics from tech, science, defence industry to personal development.",
       image: '/images/egesavtek.png',
       tags: ['Wordpress', 'HTML', 'CSS'],
     source: 'https://www.egesavtek.com/',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'LinkedinMoodle Database System',
-    description: "LinkedinMoodle is an imaginery career-education platform. In this project I analyized Linkedin and Moodle platforms, I specified the my hybride platform's requirements, limitations and I designed EER Model and Relational Model for this project. Also, I created a MySQL database with some SQL triggers",
+    description: "LinkedinMoodle, an imaginary career education platform, is the focal point of the relevant project. In this project, I specified the requirements and limitations for the hybrid platform of my creation and was in charge of designing the EER Model and Relational Model. Moreover, I created a MySQL database with a myriad of SQL triggers.",
       image: '/images/3.png',
       tags: ['MySQL', 'Database Management', 'SQL', 'Relational Database Systems'],
     source: 'https://github.com/eberkeaydin/LinkedinMoodle-Database',
