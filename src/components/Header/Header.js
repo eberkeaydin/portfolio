@@ -27,7 +27,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href="#blog">
-          <NavLink to={{pathname="https://medium.com/@e.berkeaydin"}} target="_blank">Blog</NavLink>
+          <NavLink to={{pathname:"https://medium.com/@e.berkeaydin"}} target="_blank">Blog</NavLink>
         </Link>
       </li> 
       <li>
