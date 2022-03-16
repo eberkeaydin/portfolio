@@ -26,8 +26,8 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="https://medium.com/@e.berkeaydin">
-          <NavLink>Blog</NavLink>
+        <Link>
+          <NavLink href='https://medium.com/@e.berkeaydin'>Blog</NavLink>
         </Link>
       </li> 
       <li>
