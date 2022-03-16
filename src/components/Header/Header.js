@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import { ExternalLinks } from '../Projects/ProjectsStyles';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -26,7 +27,9 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <a href='https://medium.com/@e.berkeaydin'>Blog</a>
+        <Link>
+          <ExternalLinks href='https://medium.com/@e.berkeaydin'>Blog</ExternalLinks>
+        </Link>
       </li> 
       <li>
         <Link href="#about">
