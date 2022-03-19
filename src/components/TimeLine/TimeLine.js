@@ -44,12 +44,14 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I have a variety of communication skills and a life approach to learning and teaching constantly. I am a
-      process-driven student who has a command of processes such as software design and development, the
-      use of digital tools, agile methodologies, teamwork, leadership, analytical thinking, relationship
-      management, and strong communication methods. I am interested in Full Stack Engineering, Database
-      Management, Data Science for Arts and Culture, Semantic Web, Product Management and Business
-      Analytics.
+      I am a people person and I, throughout my academic journey, 
+      have acquired a myriad of communicational skills that facilitate 
+      problem-solving processes on a social level greatly, helping maintain and manage
+       social relations within a given context. What’s more, I am enthusiastic 
+       and process-driven in nature and possess a command of processes such as software design and development, 
+       the use of digital tools, agile methodologies, teamwork, leadership, analytical thinking, relationship management, 
+       and strong communication methods. In addition, I am interested in Full Stack Engineering, Database Management, 
+       Data Science for Arts and Culture, Semantic Web, Product Management and Business Analytics.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
