@@ -7,8 +7,6 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import BlogPosts from '../components/Blog/BlogPosts';
 
 
 const Home = () => {
