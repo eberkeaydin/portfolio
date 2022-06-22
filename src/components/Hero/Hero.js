@@ -16,12 +16,14 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        My name is Berke. I am a candidate of full stack developer and computer
+        My name is Berke. I am a candidate of Web3 Developer and computer
         engineering student. I am using this website to share my curriculum
         vitae, projects and personal blog.
+
+        I am currently working at Authic Labs which is digital art marketplace based on Benelux.
       </SectionText>
       <Button>
-        <Link href="https://www.linkedin.com/in/eberkeaydin/">Learn More</Link>
+        <Link href="https://www.linkedin.com/in/eberkeaydin/" target="_blank">Learn More</Link>
       </Button>
     </LeftSection>
   </Section>

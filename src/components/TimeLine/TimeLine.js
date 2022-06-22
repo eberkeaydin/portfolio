@@ -47,11 +47,16 @@ const Timeline = () => {
       I am a people person and I, throughout my academic journey, 
       have acquired a myriad of communicational skills that facilitate 
       problem-solving processes on a social level greatly, helping maintain and manage
-       social relations within a given context. What’s more, I am enthusiastic 
+       social relations within a given context. 
+       <br></br>
+       <br></br>
+       What’s more, I am enthusiastic 
        and process-driven in nature and possess a command of processes such as software design and development, 
        the use of digital tools, agile methodologies, teamwork, leadership, analytical thinking, relationship management, 
-       and strong communication methods. In addition, I am interested in Full Stack Engineering, Database Management, 
-       Data Science for Arts and Culture, Semantic Web, Product Management and Business Analytics.
+       and strong communication methods. 
+       <br></br>
+       <br></br>
+       In addition, I am interested in Web3 Development, Decentralized Applications and Product Management.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
