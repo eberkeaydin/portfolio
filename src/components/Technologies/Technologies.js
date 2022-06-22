@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiJava, DiPython, DiReact, DiZend } from 'react-icons/di';
+import { DiSolidity, DiJava, DiPython, DiReact} from 'react-icons/di';
+import { SiSolidity} from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,10 +9,22 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range a technologies in the Ethereum Blockchain and web development.
+      From Front-end to Web3 Development
     </SectionText>
     <List>
+    <ListItem>
+        <picture>
+          <SiSolidity size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Web3</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Solidity, Smart Contracts
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
@@ -20,11 +33,11 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js, Bootstrap 5.0
+            Vue.js, React.js, Bootstrap 5.0
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
         <picture>
           <DiJava size="3rem" />
         </picture>
@@ -35,7 +48,7 @@ const Technologies = () =>  (
             Java, MySQL and Databases
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
       <ListItem>
         <picture>
           <DiPython size="3rem" />
@@ -48,6 +61,9 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      
+      
+
     </List>
     <SectionDivider colorAlt />
   </Section>
