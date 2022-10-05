@@ -52,5 +52,6 @@ export const TimeLineData = [
   { year: 2019, text: 'Learned basics of problem solving, algorithms,data structures, Calculus and Physics', },
   { year: 2020, text: 'Joined a outdoor caving community and a tech student community for develop my social skills', },
   { year: 2021, text: 'Started freelance Web Scraper. Become coordinator and member of board of our community.', },
-  { year: 2022, text: 'Started Web3 Development career as intern at Authic Labs', }
+  { year: 2022, text: 'Started Web3 Development career as intern at Authic Labs', },
+  { year: 2022, text: 'Started Product Development career as front-end intern at Jotform', }
 ];

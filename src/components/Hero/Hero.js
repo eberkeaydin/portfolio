@@ -18,12 +18,18 @@ const Hero = () => (
       <SectionText>
         My name is Berke. I am a candidate of Web3 Developer and computer
         engineering student. I am using this website to share my curriculum
-        vitae, projects and personal blog.
-
-        I am currently working at Authic Labs which is digital art marketplace based on Benelux.
+        vitae, projects and personal blog. 
+        <br></br>
+        <br></br>
+        I am a diligent software engineer
+        candidate with experience in several internships and software projects.
+        I improve myself in product development, front-end development, UI
+        design, UI experience and aim to advance in these fields.
       </SectionText>
       <Button>
-        <Link href="https://www.linkedin.com/in/eberkeaydin/" target="_blank">Learn More</Link>
+        <Link href="https://www.linkedin.com/in/eberkeaydin/" target="_blank">
+          Learn More
+        </Link>
       </Button>
     </LeftSection>
   </Section>
