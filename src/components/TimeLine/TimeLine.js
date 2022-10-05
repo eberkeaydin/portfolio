@@ -56,7 +56,7 @@ const Timeline = () => {
        and strong communication methods. 
        <br></br>
        <br></br>
-       In addition, I am interested in Web3 Development, Decentralized Applications and Product Management.
+       In addition, I am interested in Web3 Development and Product Management.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
