@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiSolidity, DiJava, DiPython, DiReact} from 'react-icons/di';
+import { DiSolidity, DiJava, DiPython, DiReact, DiVue, DiNodejs, DiDocker} from 'react-icons/di';
 import { SiSolidity} from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -15,25 +15,25 @@ const Technologies = () =>  (
     <List>
     <ListItem>
         <picture>
-          <SiSolidity size="3rem" />
+          <DiNodejs size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Web3</ListTitle>
+          <ListTitle>Server Side</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Solidity, Smart Contracts
+            Experience with Node <br />
+            Typescript, Nest.js, Elasticsearch
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiVue size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Vue.js, React.js, Bootstrap 5.0
+            Nuxt.js, Element UI and TailwindCSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -51,13 +51,13 @@ const Technologies = () =>  (
       </ListItem> */}
       <ListItem>
         <picture>
-          <DiPython size="3rem" />
+          <DiDocker size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Web Scraping</ListTitle>
+          <ListTitle>Microservices</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Python Scrapy Framework 
+            Kubernetes, Elasticsearch, Apache Kafka and Airflow 
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -16,15 +16,13 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        My name is Berke. I am a candidate of Web3 Developer and computer
-        engineering student. I am using this website to share my curriculum
-        vitae, projects and personal blog. 
+        My name is Berke. I am a candidate of business analyst and former full stack engineer. 
         <br></br>
         <br></br>
-        I am a diligent software engineer
-        candidate with experience in several internships and software projects.
-        I improve myself in product development, front-end development, UI
-        design, UI experience and aim to advance in these fields.
+        Results-driven professional with 2 years of experience as a Software Engineer, now transitioning
+        into Business Analysis with a focus on bridging technical solutions with business objectives.
+        Certified in internationally recognized business analysis methodologies, equipped to drive
+        requirements elicitation, process optimization, and stakeholder alignment.
       </SectionText>
       <Button>
         <Link href="https://www.linkedin.com/in/eberkeaydin/" target="_blank">
