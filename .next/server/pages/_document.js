@@ -1,1 +1,5 @@
-"use strict";(()=>{var a={};a.id=220,a.ids=[220],a.modules={361:a=>{a.exports=require("next/dist/compiled/next-server/pages.runtime.prod.js")},2015:a=>{a.exports=require("react")},2770:a=>{a.exports=require("styled-components")},3873:a=>{a.exports=require("path")},5714:(a,b,c)=>{c.r(b),c.d(b,{default:()=>h});var d=c(8732),e=c(2341),f=c.n(e),g=c(2770);class h extends f(){static async getInitialProps(a){let b=new g.ServerStyleSheet,c=a.renderPage;try{a.renderPage=()=>c({enhanceApp:a=>c=>b.collectStyles((0,d.jsx)(a,{...c}))});let e=await f().getInitialProps(a);return{...e,styles:(0,d.jsxs)(d.Fragment,{children:[e.styles,b.getStyleElement()]})}}finally{b.seal()}}render(){return(0,d.jsxs)(e.Html,{lang:"en-GB",children:[(0,d.jsx)(e.Head,{children:(0,d.jsx)("link",{href:"https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap",rel:"stylesheet"})}),(0,d.jsxs)("body",{children:[(0,d.jsx)(e.Main,{}),(0,d.jsx)(e.NextScript,{})]})]})}}},8732:a=>{a.exports=require("react/jsx-runtime")}};var b=require("../webpack-runtime.js");b.C(a);var c=b.X(0,[341],()=>b(b.s=5714));module.exports=c})();
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/_document.js")
+R.c("server/chunks/ssr/[externals]__3ac7eb51._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__c5299164._.js")
+R.m(7684)
+module.exports=R.m(7684).exports

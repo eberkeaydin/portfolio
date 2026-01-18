@@ -1,38 +1,30 @@
 {
-  "polyfillFiles": [
-    "static/chunks/polyfills-42372ed130431b0a.js"
-  ],
-  "devFiles": [],
-  "ampDevFiles": [],
-  "lowPriorityFiles": [
-    "static/0VFo59Q9VH5zO2DcqAjF4/_buildManifest.js",
-    "static/0VFo59Q9VH5zO2DcqAjF4/_ssgManifest.js"
-  ],
-  "rootMainFiles": [],
-  "rootMainFilesTree": {},
   "pages": {
     "/": [
-      "static/chunks/webpack-17a39de9ddbfb0f9.js",
-      "static/chunks/framework-37f3832b4337c515.js",
-      "static/chunks/main-f5640598355e7cf8.js",
-      "static/chunks/9f825079-5b7319cfa4d1fa1c.js",
-      "static/chunks/08160033-9c83b0d1c1dd9b2b.js",
-      "static/chunks/83444b60-844af1a8fa7d9c80.js",
-      "static/chunks/881-94564523f671313c.js",
-      "static/chunks/pages/index-666a4fe769b11d84.js"
+      "static/chunks/fbb102accdbacc5d.js",
+      "static/chunks/da0ff8adaa6cce90.js",
+      "static/chunks/90363b24ca4c1106.js",
+      "static/chunks/8bd67949b97073ad.js",
+      "static/chunks/turbopack-dfff970212fab264.js"
     ],
     "/_app": [
-      "static/chunks/webpack-17a39de9ddbfb0f9.js",
-      "static/chunks/framework-37f3832b4337c515.js",
-      "static/chunks/main-f5640598355e7cf8.js",
-      "static/chunks/pages/_app-31fcf7263e75594b.js"
+      "static/chunks/0d52a0a02328e3f1.js",
+      "static/chunks/8bd67949b97073ad.js",
+      "static/chunks/da0ff8adaa6cce90.js",
+      "static/chunks/turbopack-80fb42faf627121b.js"
     ],
     "/_error": [
-      "static/chunks/webpack-17a39de9ddbfb0f9.js",
-      "static/chunks/framework-37f3832b4337c515.js",
-      "static/chunks/main-f5640598355e7cf8.js",
-      "static/chunks/pages/_error-cf5db1610f7a1281.js"
+      "static/chunks/9c3d17e5c1364d5b.js",
+      "static/chunks/8bd67949b97073ad.js",
+      "static/chunks/da0ff8adaa6cce90.js",
+      "static/chunks/turbopack-7b34f4a738cb0a27.js"
     ]
   },
-  "ampFirstPages": []
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/lBC423shEiNcFCCQiWc3o/_ssgManifest.js",
+    "static/lBC423shEiNcFCCQiWc3o/_buildManifest.js"
+  ],
+  "rootMainFiles": []
 }
