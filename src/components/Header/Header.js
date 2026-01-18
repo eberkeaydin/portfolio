@@ -1,47 +1,77 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+} from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-
+      <Link href="/" legacyBehavior passHref>
+        <NavLink />
       </Link>
     </Div1>
+
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="#projects" legacyBehavior passHref>
           <NavLink>Projects</NavLink>
         </Link>
-      </li> 
+      </li>
+
       <li>
-        <Link href="#tech">
+        <Link href="#tech" legacyBehavior passHref>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
+
       <li>
-        <Link href="https://medium.com/@e.berkeaydin">
-          <NavLink href='https://medium.com/@e.berkeaydin' target="_blank">Blog</NavLink>
-        </Link>
-      </li> 
+        {/* External link */}
+        <NavLink
+          href="https://medium.com/@e.berkeaydin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog
+        </NavLink>
+      </li>
+
       <li>
-        <Link href="#about">
+        <Link href="#about" legacyBehavior passHref>
           <NavLink>About</NavLink>
         </Link>
-      </li> 
+      </li>
     </Div2>
+
     <Div3>
-      <SocialIcons href='https://github.com/eberkeaydin'>
+      <SocialIcons
+        href="https://github.com/eberkeaydin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href='https://www.linkedin.com/in/eberkeaydin/'>
+
+      <SocialIcons
+        href="https://www.linkedin.com/in/eberkeaydin/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href='https://www.instagram.com/e.berkeaydin/'>
+
+      <SocialIcons
+        href="https://www.instagram.com/e.berkeaydin/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
