@@ -14,7 +14,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Address</LinkTitle>
-          <LinkItem href='https://en.wikipedia.org/wiki/%C4%B0zmir'>Bornova, Izmir | Turkey</LinkItem>
+          <LinkItem href='https://en.wikipedia.org/wiki/%C4%B0zmir'>Istanbul | Turkey</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -33,7 +33,7 @@ const Footer = () => {
       </SocialIcons>
       </SocialContainer>
       </SocialIconsContainer>
-      <Copyright>Site is developed by Emin Berke AydinⒸ 2022</Copyright>
+      <Copyright>Emin Berke AydinⒸ 2026</Copyright>
     </FooterWrapper>
   );
 };
